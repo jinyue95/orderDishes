@@ -1,0 +1,28 @@
+<header class="header">
+    <span class="fa fa-angle-left"></span>
+    <h3>食堂-点菜</h3>
+    <span class="fa fa-angle-right"></span>
+</header>
+<section class="section">
+    <div class="left">
+        <ul id="list">
+            <li ng-repeat="i in data" ng-click="fun($index)">{{i.title}}</li>
+        </ul>
+    </div>
+    <div class="right">
+        <ul id="check">
+            <li ng-repeat="k in prodect">
+                <div class="napri">
+                    <p>{{k.name}}</p>
+                    <h4>{{k.price}}</h4>
+                </div>
+                <div class="ipt">
+                    <b ng-click="check($index)"></b>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+<footer class="footer">
+    <h3>购物车：<span id="count">0</span></h3>
+</footer>

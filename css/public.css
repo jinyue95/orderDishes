@@ -1,0 +1,25 @@
+body {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: -webkit-flex;
+  flex-direction: column; }
+
+.header {
+  height: 45px;
+  background: red; }
+
+.section {
+  flex: 1;
+  overflow-y: scroll; }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 45px;
+  line-height: 45px;
+  padding-left: 10px; }
+
+/*# sourceMappingURL=public.css.map */
